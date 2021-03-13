@@ -23,6 +23,7 @@ export const Container = styled.div<IFoodPlateProps>`
       `};
 
     img {
+      max-width: 100%;
       pointer-events: none;
       user-select: none;
     }
@@ -36,7 +37,11 @@ export const Container = styled.div<IFoodPlateProps>`
     }
 
     p {
+      height: 48px;
+
       color: #3d3d4d;
+
+      overflow: hidden;
 
       margin-top: 16px;
     }
